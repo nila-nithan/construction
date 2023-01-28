@@ -1,0 +1,728 @@
+ *{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    /* overflow-x: hidden; */
+}
+body{
+   box-sizing: border-box; 
+   overflow-x: hidden;
+}
+.container{
+    width: 1100px; 
+    margin: auto;
+    padding: 20px 0;
+}
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(./image/banner.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+}
+header{
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+header .menu-bar,.fa-bars{
+    display: none;
+}
+.contact a{
+    text-decoration: none;
+    color: aliceblue;
+}
+i{
+    padding: 0 3px;
+}
+i:hover{
+    color: #ffbc13;
+}
+.contact a:hover{
+    color: #ffbc13;
+}
+header.contact{
+    color: aliceblue;
+    cursor: pointer;
+}
+/* -----------Nav---------------- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .fa-bars{
+    display: none;
+}
+.logo {
+    width: 110px;
+    height: 50px; 
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+nav ul li{
+    margin-right: 10px;
+}
+
+nav ul li a:hover{
+    color: #fff;
+    background-color: #FFA500;
+}
+.fa-search{
+    color: #fff;
+}
+.fa-search:hover{
+    color: #FFA500;
+}
+
+.text h1 {
+    color: aliceblue;
+    margin-top: 22%;
+    text-align: center;
+    font-size: 50px;
+}
+.front {
+    text-align: center;
+    color: aliceblue;
+}
+button{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: transparent;
+}
+.btn{
+    margin-left: 40%;
+}
+button:hover{
+    background-color: #FFA500;
+}
+/* ---------------all services-------------- */
+.allservice{
+
+}
+h2{
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+h2::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #FFA500;
+    margin-top: 30px;
+    margin-left: -130px;
+}
+.h2-1{
+    text-align: center;
+    margin-top: 70px;
+    position: relative;
+}
+.h2-1::after{
+    content: "";
+    position: absolute;
+    width:100px ;
+    height: 3px;
+    background-color: #FBB917;
+    margin-top: -30px ;
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+}
+.card1 .card-img{
+    width: 100%;
+} 
+.card-text{
+    margin: 10px;
+}
+.card-text P{
+    margin-top: 10PX;
+}
+.card2{
+    display: flex;
+    justify-content: space-between;
+}
+.card2 .card-img{
+    width: 100%;
+} 
+/* ------------------future work------------------- */
+.futurework{
+    height: 100%;
+    background-color: #333333;
+    
+}
+.futurework h2{
+color: #fff;
+}
+.nav-btn3{
+    display: flex;
+    justify-content: space-between;
+}
+.nav3,ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 10px;
+}
+.nav3 ul ,a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav3 ul ,a:hover{
+    color: #FBB917;
+}
+.page3-pic{
+    display: flex;
+    justify-content: space-between; 
+}
+.page3-pic img{
+   width: 354px;
+   height: 354px;
+}
+/* ---------qoute------------ */
+.QOUTE {
+    background-color: #FFA500;
+}
+.qout p,button{
+    display: inline-block;
+}
+.QOUTE button{
+    float: right;
+    margin-top: -10px;
+}
+/* -------------------why choice us----------------------- */
+.CHOICE h2{
+    margin-top: -26px;
+    margin-bottom: -31px;;
+}
+.overall-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.content i,h4{
+display: inline-block;
+}
+.content i{
+    font-size: 40px;
+    color: #FFA500;
+}
+.content h4{
+font-size: 20px;
+margin-bottom: 10px;
+}
+.first-content {
+    margin-top: auto;
+    flex-basis: 30%;
+}
+.second-content{
+    margin-top: auto;
+    flex-basis: 30%;
+}
+.pic img{
+    flex-basis: 30%;
+    width: 200px;
+    height: 258px;
+}
+/* --------------leading-------------------- */
+.leading{
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(./image/furniture.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+}
+
+.boldtext p{
+margin-top: 60px;
+color: aliceblue;
+font-size: 40px;
+font-weight: 600;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-top: 40px;
+}
+.boldtext1 p{
+    color: aliceblue;
+    font-size: 30px;
+}
+span{
+    color: #FFA500;
+}
+h6{
+    color: #fff;
+    font-size: 15px;
+}
+.all-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.all-icons p{
+    color: aliceblue;
+    /* text-align: center; */
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.icon6{
+    display: grid;
+    align-items: center;
+}
+.icon6 i p{
+    padding: 10px 20PX;
+}
+.icon6 i{
+    color: #FFA500;
+    font-size: 40px;
+}
+
+/* ------------our team----------------- */
+
+.fleximg{
+    display: flex;
+    justify-content: space-between;
+}
+.page7-card{
+    flex-basis: 20%;
+}
+.team-pic{
+    width: 200px;
+}
+.page7-card h4,p{
+text-align: center;
+}
+.btn7{
+    margin-top: 50px;
+    margin-left: 500px ;
+}
+.btn7 button{
+    color: #000;
+    margin: auto;
+}
+.wrapper7-card-text h4,p,i{
+    display: block;
+   /* text-align: center; */
+}
+.wrapper7-card-text i{
+    margin: 0 20px;
+    font-size: 25px;
+}
+/* ----------latest new------------------- */
+.latest{
+    background-color: rgb(214, 214, 214);
+}
+.page8 h2{
+    /* text-align: center; */
+    padding: 50px;
+}
+.page8 h2::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #FFA500;
+    margin-top: 35px;
+    margin-left: -125px;
+}
+.page8-card-flex{
+    display: flex;
+}
+.page8-card button{
+    color: #000;
+    background-color: #FFA500;
+}
+.page8-card{
+padding: 10px;
+}
+.page8-card img{
+    width: 100%;
+}
+/* -----------testimonial----------------- */
+.page9-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.page9-card{
+    display: flex;
+    gap: 15px;
+}
+/* -------------get in touch------------------- */
+
+.touch{
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(./image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+}
+.fist-form{
+    /* margin: 10px 0; */
+}
+.touch h2{
+    color: #fff;
+}
+::placeholder {
+    color: #fff;
+}
+::placeholder:hover{
+    color:#FBB917 ;
+}
+.touch input{
+border: 2px solid #fff;
+background-color: transparent;
+border-radius: 2px;
+width: 48%;
+padding: 20px 5px;
+margin: 10px 0;
+}
+.touch input:hover{
+    border-color: #FBB917;
+}
+.msg input{
+    width: 98%;
+    padding-top: 100px;
+}
+.send{
+    width: 100%;
+}
+.send button{
+    margin-top:10px;
+    margin-left: 44%;
+}
+/* -----------------grid-------------------- */
+.grid{
+    background-color: #333333;
+}
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+.grid h3{
+    color: #fff;
+}
+.links{
+flex-basis: 20%;
+}
+.links img,i{
+    margin: 10px 0;
+}
+.links img{
+    width: 150px;
+}
+.links i{
+    font-size: 25px;
+}
+.news-letter{
+    flex-basis: 25%;
+}
+.news-letter h3,p{
+margin: 15px 0;
+color: #000;
+text-align: left;
+}
+.office{
+    flex-basis: 20%;
+}
+.business-hour{
+    flex-basis: 30%;
+}
+.timing{
+    color: #fff;
+}
+
+.item-flex{
+    display: flex;
+justify-content: flex-start;
+}
+.footer{
+    margin: 10px;
+color:#fff ;
+padding-left: 416px;
+}
+
+.navigation .fa-bars{
+    display: none;
+}
+ul .fa-times{
+    display: none;
+}
+/* -----------media query----------- */
+@media only screen and (max-width:450px){
+    body{
+        overflow-x: hidden;
+    }
+    .wrapper{
+    width: 100%;
+}
+.container{
+    width:90%;
+    margin: auto;
+}
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(./image/mobile-banner.jpg); 
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%; 
+    }
+header{
+    display: flex;
+}
+header .menu-bar,.fa-bars{
+    display: block;
+}
+.header .icon{
+    width: 40%;
+}
+.contact a{
+ display: none;
+}
+.header .icon i{
+    font-size: 10px;
+    padding: 30px 0;
+}
+nav .fa-bars{
+    display: block;
+}
+nav ul{
+    display:none;
+    font-size: 20px;
+    padding-top: 20px;
+    background-color: #FFA500;
+}
+ul .fa-times{
+    display: block;
+}
+ul li{
+    margin-bottom: 20px;
+}
+ul li a{
+    color: #000;
+}
+.text h1 {
+    margin-top: 50%;
+    font-size: 31px;
+}
+.front {
+    font-size: x-small;
+    width: 65%;
+    margin: auto;
+    margin-top: 8%;
+}
+.btn{
+    margin-left: 30%;
+    margin-bottom: 20%;
+}
+button{
+    font-size: x-small;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* -------------all services-------------------- */
+.card1,.card2 {
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+}
+.card1,.card2 .card-img{
+    width: 100%;
+} 
+.card1,.card2 .card{
+    width: 18rem;
+    margin: auto;
+}
+/* ---------3page----------- */
+.nav-btn3 {
+    font-size: 10px;
+}
+.nav3 ul,a{
+    /* font-size: 10px; */
+}
+.page3-pic{
+    display: flex;
+    justify-content: space-between;
+}
+.page3-pic img{
+    width: 30%;
+    height: auto;
+ }
+/* -----------qoute---------- */
+.qout p{
+    font-size: 10px;
+    width: 75%;
+}
+.QOUTE button{
+    margin-top: 0;
+}
+.overall-content{
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: smaller;
+}
+/* --------leading page---------- */
+.leading{
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(./image/mobile-furniture.jpg);
+}
+.boldtext p{
+    font-size: 20px;
+}
+.boldtext1 p{
+    font-size: 15px;
+}
+.all-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.all-icons p{
+    padding: 5px;
+    font-size: 20px;
+}
+.icon6 i{
+    color: #FFA500;
+    font-size: 20px;
+}
+.icon6 p{
+    /* color: #FFA500; */
+    font-size: 20px;
+}
+.icon6 h6{
+    font-size: 14px;
+}
+/* --our team------------ */
+.fleximg{
+    display: block;
+    margin: auto;
+}
+.wrapper7-card,img{
+    width: 200px;
+    margin-left:0px;
+}
+.wrapper7-card-text{
+    text-align: center;
+}
+.wrapper7-card-text i{
+    margin: 0 20px;
+    font-size: 15px;
+}
+.page7-card{
+    margin-bottom: 25px;
+}
+.team-pic{
+    margin-left: 25%;
+}
+/* -------latest new----------- */
+.page8-card-flex{
+    display: block;
+}
+.page8-card h3,p,i{
+    padding: 10px;
+    text-align: center;
+}
+.page8-card-text i{
+    margin-left: 10px;
+}
+.page8-card-text button{
+margin-left: 40%;
+}
+/* ------testimonial--------- */
+.page9-flex{
+    display: block;
+}
+.page9-flex p{
+    color: #000;
+}
+.container9-pic img{
+width: 100%;
+}
+.page9-card{
+
+}
+.page9-text p,h4{
+width: 100%;
+}
+.page9-text{
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ------form--------- */
+.touch input{
+    width: 100%;
+}
+.send button{
+    margin-top:17px;
+    margin-left: 37%;
+}
+/* -----grid------------ */
+.footer-row{
+    display: block;
+}
+.grid-icon a{
+    text-align: center;
+}
+.links img{
+    width: 150px;
+    margin-left: 33%;
+}
+.grid-icon{
+    margin-left: 16%;
+}
+.news-letter h3{
+    color: #FBB917;
+}
+.news-letter h3,p{
+margin: 15px 0;
+text-align: center;
+}
+.news-letter input{
+margin-left: 27%;
+}
+.office{
+text-align: center;
+margin-top: 15px;
+}
+.office h3{
+    color: #FBB917;
+}
+address a{
+    margin: 0;
+}
+.business-hour{
+    text-align: center;
+}
+.business-hour h3{
+    color: #FBB917;
+}
+.item-flex{
+justify-content: center;
+}
+.footer{
+font-size: 10px;
+padding-left: 10%;
+letter-spacing: 0.5mm;
+}
+}
+
+
